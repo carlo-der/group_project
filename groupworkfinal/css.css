@@ -1,0 +1,222 @@
+h1{
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+.img1 {
+    width: 250px;
+    height:150px;
+}
+
+.img2 {
+    width: 300px;
+    height: 200px; 
+     
+    
+}
+
+.img3 {
+  position: absolute;
+  top: 30px;
+  left: 0px;
+  width: 300px;
+  height: 300px;
+}
+
+
+body{
+    font-family: "Audiowide", sans-serif;
+    font-size: large;
+    background-color: #70bef5;
+}
+
+div {
+    width: auto;
+    border: 0;
+    padding: 0px;
+    margin: 20px;
+    
+}
+
+#didyouknow {
+    border-radius: 25px;
+    width: 500px;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 20px;
+    display: inline-block;
+}
+
+#privateaccount {
+    width: 850px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#toptip {
+    border-radius: 25px;
+    width: 250px;
+    border: 5px solid black;
+    padding: 0px;
+    margin: 20px;
+    display: inline-block;
+    
+}
+
+#toptip ul {
+    list-style-type: none;
+}
+
+#fakeaccounts {
+    display: inline-block;
+    vertical-align: top;
+    width: 1090px;
+}
+
+#passwordsecurity {
+  width: 850px;
+  border: 0px;
+  padding: 0px;
+  margin: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#thingtoremember {
+  width: 350px;
+  border: 5px solid black;
+  border-radius: 25px;
+  padding: 5px;
+  margin: 20px;
+  
+  vertical-align: top;
+  float: right;
+}
+
+.navigate {
+    background-color: #70bef5;
+    overflow: hidden;
+}
+
+.navigate a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navigate a:hover {
+    
+    color:black;
+    transition-duration: 0.4s;
+
+}
+
+.navigate a.active {
+    background-color: #70bef5;
+    color: black;
+}
+
+.pros-cons-container {
+    display: flex;
+    max-width:700px;
+    margin: 32px auto; 
+    box-shadow: 0 4px 16px -4px rgba(0, 0, 0, 0.4);
+    background-color: #214053;
+   
+}
+
+.pros-cons-container .heading {
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding: 16px 24px;
+  }
+
+
+  .pros-cons-container .pros-container .heading {
+    background: #02c39a;
+  }
+  
+  .pros-cons-container .cons-container .heading {
+    background: #e63946;
+  }
+  
+  .pros-cons-container .pros-container ul li::before {
+    content: "\f00c";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    padding-right: 16px;
+    color: #02c39a;
+    display: block;
+  }
+  
+  .pros-cons-container .cons-container ul li::before {
+    content: "\f00d";
+    font-family: "Font Awesome 5 Free";
+    font-weight: bold;
+    padding-right: 16px;
+    color: #e63946;
+    display: block;
+  }
+  
+  .pros-cons-container .pros-container,
+  .pros-cons-container .cons-container {
+    flex: 1;
+  }
+  
+  .pros-cons-container .pros {
+    border-right: 1px solid #eee;
+  }
+  
+  .pros-cons-container ul {
+    padding: 8px 0;
+    list-style: none;
+    margin: 0;
+  }
+  
+  .pros-cons-container ul li {
+    padding: 16px 32px;
+    font-size: 16px;
+    line-height: 2;
+    display: flex;
+    color: #fff;
+  }
+  
+  @media (max-width: 530px) {
+    .pros-cons-container {
+      flex-direction: column;
+    }
+  
+    .pros-cons-container ul li:nth-of-type(2n) {
+      background: #eee;
+    }
+  }
+
+  .button {
+    background-color: #214053; 
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #586460;
+    color: white;
+  }
