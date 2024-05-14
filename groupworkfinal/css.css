@@ -21,7 +21,7 @@ h1{
 .img3 {
     position: absolute;
     top: 30px;
-    left: 0px;
+    left: 0;
     width: 300px;
     height: 300px;
 }
@@ -36,7 +36,7 @@ body{
 div {
     width: auto;
     border: 0;
-    padding: 0px;
+    padding: 0;
     margin: 20px;
 
 }
@@ -45,16 +45,16 @@ div {
     border-radius: 25px;
     width: 500px;
     border: 5px solid black;
-    padding: 0px;
+    padding: 0;
     margin: 20px;
     display: inline-block;
 }
 
 #privateaccount {
     width: 850px;
-    border: 0px;
-    padding: 0px;
-    margin: 0px;
+    border: 0;
+    padding: 0;
+    margin: 0;
     display: inline-block;
     vertical-align: top;
 }
@@ -63,7 +63,7 @@ div {
     border-radius: 25px;
     width: 250px;
     border: 5px solid black;
-    padding: 0px;
+    padding: 0;
     margin: 20px;
     display: inline-block;
 
@@ -81,8 +81,8 @@ div {
 
 #passwordsecurity {
     width: 850px;
-    border: 0px;
-    padding: 0px;
+    border: 0;
+    padding: 0;
     margin: 20px;
     display: inline-block;
     vertical-align: top;
@@ -153,7 +153,7 @@ div {
 
 .pros-cons-container .pros-container ul li::before {
     content: "\f00c";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free", sans-serif;
     font-weight: bold;
     padding-right: 16px;
     color: #02c39a;
@@ -162,7 +162,7 @@ div {
 
 .pros-cons-container .cons-container ul li::before {
     content: "\f00d";
-    font-family: "Font Awesome 5 Free";
+    font-family: "Font Awesome 5 Free", sans-serif;
     font-weight: bold;
     padding-right: 16px;
     color: #e63946;
