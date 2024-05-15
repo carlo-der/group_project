@@ -1,8 +1,4 @@
-h1{
-    text-align: center;
-}
-
-.intro {
+.center {
     text-align: center;
 }
 
@@ -100,6 +96,8 @@ div {
 }
 
 .navigate {
+    display: flex;
+    justify-content: space-evenly;
     background-color: #70bef5;
     overflow: hidden;
 }
@@ -113,16 +111,20 @@ div {
     font-size: 20px;
 }
 
-.navigate a:hover {
 
-    color:black;
-    transition-duration: 0.4s;
-
+button.active {
+    background-color: #586460;
+    color: black;
 }
 
-.navigate a.active {
-    background-color: #70bef5;
-    color: black;
+button.active:hover {
+    background-color: #214053;
+    color: white;
+}
+
+.navigate .button:hover {
+    color:black;
+    transition-duration: 0.4s;
 }
 
 .pros-cons-container {
@@ -219,4 +221,76 @@ div {
 .button:hover {
     background-color: #586460;
     color: white;
+}
+
+.pwd-generator {
+    border-radius: 10px;
+    background-color: #214053;
+    padding: 30px;
+    margin-top: 2em;
+}
+
+.contain-width {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#generator-start {
+    margin: 6em;
+}
+
+.light {
+    background-color: #70bef5;
+    color: black;
+    border-radius: 10px;
+    outline: 3px solid white;
+}
+
+.light:hover {
+    color: white;
+    background-color: #70bef5;
+    outline-color: black;
+}
+
+#generator-content {
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#generator-header {
+    color: lightgrey;
+    margin-top: -1em;
+}
+
+.generator-choice {
+    border-radius: 10px;
+    margin: 1em;
+    min-width: 60%;
+    max-width: 60%;
+    padding: 0.5em;
+}
+
+.generator-choice:hover {
+    background-color: lightgrey;
+}
+
+.generator-choice:active {
+    background-color: grey;
+}
+
+#generator-end {
+    flex-flow: column;
+    justify-content: center;
+}
+
+#generator-end p {
+    color: lightgrey;
+}
+
+#generator-end button {
+    margin-top: 2em;
+    width: fit-content;
+    align-self: center;
 }
