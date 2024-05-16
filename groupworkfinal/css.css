@@ -30,10 +30,6 @@
     margin-right: auto;
 }
 
-ul, ol {
-    list-style-position: inside;
-}
-
 
 body{
     font-family: "Audiowide", sans-serif;
@@ -69,22 +65,22 @@ div {
 }
 
 #toptip {
+    align-items: center;
     border-radius: 25px;
     width: 250px;
     border: 5px solid black;
-    padding: 0;
     margin: 20px;
     display: inline-block;
 
 
 }
 
-#toptip ul {
-    list-style-type: none;
-    padding: 0;
-}
 #toptip img {
     margin-left: -25px;
+}
+
+#toptip ul {
+    list-style-type: none;
 }
 
 #fakeaccounts {
@@ -402,6 +398,11 @@ body {
     padding:  3em 5em 3em 5em;
 }
 
+.index-txt {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+}
 
 .alt-palette {
     background-color: #214053;
@@ -481,4 +482,12 @@ body {
 
 #pwd-security-intro {
     max-width: 60%;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+.italics {
+    font-style: italic;
 }
