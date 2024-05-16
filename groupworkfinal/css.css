@@ -30,6 +30,10 @@
     margin-right: auto;
 }
 
+ul, ol {
+    list-style-position: inside;
+}
+
 
 body{
     font-family: "Audiowide", sans-serif;
@@ -52,6 +56,7 @@ div {
     padding: 0;
     margin: 20px;
     display: inline-block;
+
 }
 
 #privateaccount {
@@ -71,10 +76,15 @@ div {
     margin: 20px;
     display: inline-block;
 
+
 }
 
 #toptip ul {
     list-style-type: none;
+    padding: 0;
+}
+#toptip img {
+    margin-left: -25px;
 }
 
 #fakeaccounts {
@@ -426,14 +436,16 @@ body {
 
 .container {
     position: relative;
-    width: 50%;
+    max-width: 200px;
+    padding: 20px;
+    display: inline-block;
 }
 
 .image {
     opacity: 1;
     display: block;
-    width: 100%;
-    height: auto;
+   width: 200px;
+    height: 150px;
     transition: .5s ease;
     backface-visibility: hidden;
 }
@@ -442,8 +454,8 @@ body {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 40%;
+    left: 43%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
@@ -460,8 +472,7 @@ body {
 .text {
     background-color: transparent;
     color: white;
-    font-size: 16px;
-    padding: 16px 32px;
+    
 }
 
 .pwd-security-intro {
