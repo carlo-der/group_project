@@ -84,7 +84,7 @@ div {
 }
 
 #passwordsecurity {
-    width: 850px;
+    width: 80%;
     border: 0;
     padding: 0;
     margin: 20px;
@@ -93,14 +93,13 @@ div {
 }
 
 #thingtoremember {
+    align-self: center;
     width: 350px;
+    max-height: 20em;
     border: 5px solid black;
     border-radius: 25px;
     padding: 5px;
     margin: 20px;
-
-    vertical-align: top;
-    float: right;
 }
 
 .navigate {
@@ -384,44 +383,91 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#index-content {
+    margin: auto 0 auto 0;
+
+}
+
+.index-div {
+    padding:  3em 5em 3em 5em;
+}
+
+
+.alt-palette {
+    background-color: #214053;
+    color: white;
+    margin: 0;
+}
+
+.index-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 3em;
+}
+
+
+#password-img, #legal-img {
+    width: 30%;
+    height: 30%;
+    align-self: center;
+}
+
+
+#privacy-img, #pwd-gen-img, #quiz-img {
+    width: auto;
+    height: 200%;
+    align-self: center;
+}
+
+.btn-invert {
+    color: black;
+    background-color: #70bef5;
+}
+
 .container {
     position: relative;
-    width: 200px;
-    padding: 20px;
-    display: inline-block;
+    width: 50%;
 }
-  
-  .image {
+
+.image {
     opacity: 1;
     display: block;
-    width: 30px;
-    height: 100px;
+    width: 100%;
+    height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
-  }
-  
-  .middle {
+}
+
+.middle {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
     top: 50%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-  }
-  
-  .container:hover .image {
+}
+
+.container:hover .image {
     opacity: 0.3;
-  }
-  
-  .container:hover .middle {
+}
+
+.container:hover .middle {
     opacity: 1;
-  }
-  
-  .text {
-    background-color: none;
+}
+
+.text {
+    background-color: transparent;
     color: white;
     font-size: 16px;
     padding: 16px 32px;
-  }
+}
+
+.pwd-security-intro {
+    display: flex;
+}
+
+#pwd-security-intro {
+    max-width: 60%;
+}
