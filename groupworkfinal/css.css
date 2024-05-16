@@ -22,6 +22,14 @@
     height: 300px;
 }
 
+.img4 {
+    width: 800px;
+    height: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 
 body{
     font-family: "Audiowide", sans-serif;
