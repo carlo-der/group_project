@@ -492,4 +492,94 @@ ul, ol {
     font-style: italic;
 }
 
+#legal-body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+    max-width: 100%;
+}
 
+.legal-container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.banner {
+    background-color: #214053;
+    border: 2px solid #333;
+    padding: 20px;
+    margin: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.banner .legal-container {
+    max-width: 800px;
+
+}
+
+
+.banner h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.banner li {
+    margin-bottom: 10px;
+}
+
+.banner p {
+    color: white;
+}
+
+.banner ul {
+    color: white;
+    text-align: center;
+
+}
+
+.nopad {
+    padding-left: 0;
+    margin-left: 0;
+}
+
+
+hr {
+    border: none;
+    border-top: 2px solid #333;
+    margin: 25px 0;
+}
+
+.section {
+    border-radius: 0;
+    width: 100%;
+    margin: 0;
+    color: #214053;
+    background-color: #214053;
+
+
+}
+
+.section li {
+    text-align: center;
+    color: white;
+}
+
+.section h2{
+    color: white;
+}
+
+.section p{
+    color: white;
+}
+
+.section a:visited {
+    color: #70bef5;
+}
